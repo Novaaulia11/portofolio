@@ -56,74 +56,25 @@
         <footer>
             &copy; 2024 Nova Aulia | 
             <a href="https://www.instagram.com/novaaul17/profilecard/?igsh=ZnFsMGk4dTlmOHZv" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram Logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram Logo" style="width:24px; height:24px;">
             </a>
         </footer>
     </div>
 
-    <script type="application/json" id="cv-data">
+    <script type="application/ld+json">
     {
-        "title": "Curriculum Vitae - Nova Aulia",
-        "header": {
-            "name": "Nova Aulia",
-            "contact": {
-                "email": "mpaaulia17@gmail.com",
-                "phone": "0896-5281-5787"
-            }
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nova Aulia",
+        "email": "mpaaulia17@gmail.com",
+        "telephone": "0896-5281-5787",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "SMA Negeri 18 Kab. Tangerang"
         },
-        "navigation": [
-            { "label": "Tentang Saya", "link": "#about" },
-            { "label": "Keterampilan", "link": "#skills" },
-            { "label": "Pendidikan", "link": "#education" },
-            { "label": "Hobi", "link": "#hobbies" }
-        ],
-        "mainContent": {
-            "leftColumn": {
-                "sections": [
-                    {
-                        "id": "about",
-                        "title": "Tentang Saya",
-                        "content": "Saya adalah lulusan SMAN 18 Kab.Tangerang tahun 2023..."
-                    },
-                    {
-                        "id": "skills",
-                        "title": "Keterampilan",
-                        "skills": ["Word", "Excel", "PowerPoint"]
-                    }
-                ]
-            },
-            "rightColumn": {
-                "sections": [
-                    {
-                        "id": "education",
-                        "title": "Pendidikan",
-                        "educationList": [
-                            "SD Negeri Palahlar (2011 - 2017)",
-                            "MTS Al-Husna (2017 - 2020)",
-                            "SMA Negeri 18 Kab. Tangerang (2020 - 2023)"
-                        ]
-                    },
-                    {
-                        "id": "hobbies",
-                        "title": "Hobi",
-                        "hobbies": [
-                            { "name": "Membaca Novel", "description": "..." },
-                            { "name": "Nonton Film", "description": "..." }
-                        ]
-                    }
-                ]
-            }
-        },
-        "footer": {
-            "copyright": "2024 Nova Aulia",
-            "socialLinks": [
-                {
-                    "platform": "Instagram",
-                    "url": "https://www.instagram.com/novaaul17/profilecard/?igsh=ZnFsMGk4dTlmOHZv",
-                    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
-                }
-            ]
-        }
+        "sameAs": [
+            "https://www.instagram.com/novaaul17/profilecard/?igsh=ZnFsMGk4dTlmOHZv"
+        ]
     }
     </script>
 </body>
